@@ -10,13 +10,13 @@ body {
 }
 
 .header {
-  background-color: #091022;
+  background-color: #262623;
   color: white;
   width: 100%;
   text-align: center;
 }
 
-a {
+.header a {
   color: white;
   text-decoration: none;
 }
@@ -31,7 +31,7 @@ a {
 .default-button {
   border-collapse: separate;
   border-spacing: 15px;
-  background-color: #25D366;
+  background-color: #1DA851;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -41,17 +41,8 @@ a {
 }
 
 .default-button:hover {
-  background-color: #1DA851;
+  background-color: #25D366;
 }
-
-//Images
-/*
-.img_default {
-  width: 300px; 
-  height: 300px; 
-  alt: "Image example";
-}
-*/
 
 //footer
 .footer {
@@ -63,10 +54,29 @@ a {
   border-top: 1px solid #ddd;
   margin-top: 20px;
   border-radius: 0;
-
-
-  position: relative;
+  position: fixed;
   bottom: 0;
   height: 2.5rem;   
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.image-box {
+  margin: 0 20px;
+}
+.image-box img {
+  width: 300px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.image-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

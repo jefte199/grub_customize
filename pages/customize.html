@@ -5,13 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/styles.css">
-  <title>grub theme</title>
+  <link rel="stylesheet" href="../css/customize.css">
+  <title>BootArt</title>
 </head>
 
 <body>
   <header class="header">
-    <h1><a href="../index.html" class="header-link">Grub Themes</a></h1>
+    <h1><a href="../index.html" class="header-link">BootArt</a></h1>
   </header>
+
+  <p></p>
+  <p></p>
+
+  <input type="file" id="imageUpload" accept="image/*">
+  <br>
+  <div class="image-container">
+    <img id="imagePreview" src="#" alt="Preview da Imagem" style="display:none;">
+  </div>
+  <br>
 
   <p></p>
   <div class="button-container">
@@ -19,7 +30,7 @@
   </div>
   <p></p>
 
-  <img src="images/example.jpg" class="img_default" width="400" height="400" alt="Image example">
+  <script src="../js/customize.js"></script>
 
   <footer class="footer">
     <p>&copy; 2024 <a href="https://github.com/jefte199/" target="_blank">jefte199</a></p>

@@ -1,0 +1,31 @@
+/* styles.css */
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 50%; /* Defina a largura do container para corresponder à imagem */
+}
+
+#imagePreview {
+  display: block;
+  width: 50%; /* Tamanho padrão de largura */
+  object-fit: cover; /* Para garantir que a imagem preencha o espaço sem distorção */
+}
+
+//footer
+.footer {
+  background-color: #f4f4f4;
+  color: #555;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  border-radius: 0;
+
+
+  position: relative;
+  bottom: 0;
+  height: 2.5rem;   
+}
+
+ 
