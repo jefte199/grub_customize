@@ -19,14 +19,31 @@
   <p></p>
   <p></p>
 
-  <input type="file" id="imageUpload" accept="image/*">
+  <input type="file" id="imageUpload" accept=".jpg" />
   <br>
   <div class="image-container">
     <img id="imagePreview" src="#" alt="Preview da Imagem" style="display:none;">
   </div>
   <br>
 
-    <button id="downloadZip" >Baixar Imagem em ZIP</button>
+  <button id="downloadZip">Dowload New grub</button>
+
+  <p></p>
+
+  <section class="grub-info">
+    <p>Para que a imagem funcione corretamente no GRUB, a resolução deve corresponder à resolução da tela do seu GRUB,
+      que geralmente é 1024x768. Verifique as configurações do seu monitor para garantir a compatibilidade.</p>
+  </section>
+
+  <p></p>
+  <section class="downloadZip">
+    <div class="button-container">
+      <a href="https://drive.google.com/drive/folders/1V_Urrgz_WofLcWN7UeP_wr6dGedGEKIn" class="default-button">Galeria
+        de Imagens Padrão</a>
+      <p>Explore nossa galeria de imagens padrão com resoluções recomendadas para o GRUB.</p>
+    </div>
+  </section>
+  <p></p>
 
   <footer class="footer">
     <p>&copy; 2024 <a href="https://github.com/jefte199/" target="_blank">jefte199</a></p>

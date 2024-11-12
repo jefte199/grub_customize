@@ -44,6 +44,22 @@ body {
   background-color: #25D366;
 }
 
+button {
+  border-collapse: separate;
+  border-spacing: 10px;
+  background-color: #1DA851;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #25D366;
+} 
+
 //footer
 .footer {
   background-color: #f4f4f4;

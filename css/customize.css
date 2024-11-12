@@ -2,14 +2,40 @@
 .image-container {
   position: relative;
   display: inline-block;
-  width: 50%; /* Defina a largura do container para corresponder à imagem */
+  width: 60%; /* Defina a largura do container para corresponder à imagem */
 }
 
 #imagePreview {
   display: block;
-  width: 50%; /* Tamanho padrão de largura */
-  object-fit: cover; /* Para garantir que a imagem preencha o espaço sem distorção */
+  width: 60%; 
+  object-fit: cover; 
 }
+
+.grub-info {
+  margin-top: 20px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  background-color: #f4f4f9; /* Fundo claro */
+  border: 1px solid #d3d3e7; /* Bordas sutis */
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.grub-info p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.grub-info p strong {
+  color: #262623; /* Realce com a cor do tema */
+}
+
 
 //footer
 .footer {
